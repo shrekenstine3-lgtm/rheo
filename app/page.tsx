@@ -21,7 +21,6 @@ function JoinForm() {
 
 export default function HomePage() {
   return (
-    ...
     <main className="min-h-screen bg-white text-slate-900">
       <section className="border-b border-slate-200 bg-gradient-to-b from-slate-50 to-white">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:flex lg:items-center lg:justify-between lg:gap-12">
