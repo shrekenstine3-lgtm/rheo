@@ -1,7 +1,27 @@
 "use client";
 import { useState } from "react";
+
+function JoinForm() {
+  const [submitted, setSubmitted] = useState(false);
+
+  if (submitted) {
+    return <p className="text-green-600">Thanks — we’ll be in touch.</p>;
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={() => setSubmitted(true)}
+      className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-3 text-base font-medium text-white transition hover:bg-slate-800"
+    >
+      Request Invite
+    </button>
+  );
+}
+
 export default function HomePage() {
   return (
+    ...
     <main className="min-h-screen bg-white text-slate-900">
       <section className="border-b border-slate-200 bg-gradient-to-b from-slate-50 to-white">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:flex lg:items-center lg:justify-between lg:gap-12">
