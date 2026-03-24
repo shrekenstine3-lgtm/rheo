@@ -16,42 +16,42 @@ export default function HomePage() {
             visits, or follow-up care over everyday costs.
           </p>
 
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
-            <a
-              href="/dashboard"
-              className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-3 text-base font-medium text-white transition hover:bg-slate-800"
-            >
-              Open Dashboard
-            </a>
+<div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
+  <a
+    href="/dashboard"
+    className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-3 text-base font-medium text-white transition hover:bg-slate-800"
+  >
+    Open Dashboard
+  </a>
 
-            <a
-              href="/about"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
-            >
-              About Rheo
-            </a>
+  <a
+    href="/about"
+    className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
+  >
+    About Rheo
+  </a>
 
-            <a
-              href="/partnerships"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
-            >
-              Partnerships
-            </a>
+  <a
+    href="/partnerships"
+    className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
+  >
+    Partnerships
+  </a>
 
-            <a
-              href="/privacy"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
-            >
-              Privacy & Trust
-            </a>
+  <a
+    href="/privacy"
+    className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
+  >
+    Privacy & Trust
+  </a>
 
-            <a
-              href="#how-it-works"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
-            >
-              See How It Works
-            </a>
-          </div>
+  <a
+    href="#how-it-works"
+    className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
+  >
+    See How It Works
+  </a>
+</div>
         </div>
       </section>
 
