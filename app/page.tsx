@@ -223,7 +223,7 @@ export default function HomePage() {
                 className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-3 text-base font-medium text-white transition hover:bg-slate-800"
               >
                 Request Invite
-              </button>
+              <JoinForm />
             </div>
           </form>
         </div>
