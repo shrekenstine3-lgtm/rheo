@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
