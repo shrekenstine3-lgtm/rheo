@@ -16,7 +16,7 @@ export default function HomePage() {
             visits, or follow-up care over everyday costs.
           </p>
 
-  <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
+<div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
   <a
     href="/dashboard"
     className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-3 text-base font-medium text-white transition hover:bg-slate-800"
@@ -36,6 +36,13 @@ export default function HomePage() {
     className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
   >
     Partnerships
+  </a>
+
+  <a
+    href="/privacy"
+    className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
+  >
+    Privacy & Trust
   </a>
 
   <a
