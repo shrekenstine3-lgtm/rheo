@@ -2,19 +2,52 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
       <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-6">
-          <div>
-            <div className="text-sm font-medium text-slate-500">Rheo</div>
-            <h1 className="mt-1 text-3xl font-semibold tracking-tight text-slate-950">
-              About Rheo
-            </h1>
+        <div className="mx-auto max-w-5xl px-6 py-10">
+          <div className="flex items-center justify-between">
+            <div>
+              <div className="text-sm font-medium text-slate-500">Rheo</div>
+              <h1 className="mt-1 text-3xl font-semibold tracking-tight text-slate-950">
+                About Rheo
+              </h1>
+            </div>
+
+            <a
+              href="/"
+              className="rounded-2xl border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
+            >
+              Back to Home
+            </a>
           </div>
-          <a
-            href="/"
-            className="rounded-2xl border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
-          >
-            Back to Home
-          </a>
+
+          <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
+            <a
+              href="/dashboard"
+              className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-3 text-base font-medium text-white transition hover:bg-slate-800"
+            >
+              Open Dashboard
+            </a>
+
+            <a
+              href="/partnerships"
+              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
+            >
+              Partnerships
+            </a>
+
+            <a
+              href="/privacy"
+              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
+            >
+              Privacy & Trust
+            </a>
+
+            <a
+              href="/ledger"
+              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
+            >
+              Ledger
+            </a>
+          </div>
         </div>
       </section>
 
