@@ -25,6 +25,13 @@ export default function HomePage() {
             </a>
 
             <a
+              href="/market"
+              className="inline-flex items-center justify-center rounded-full bg-amber-500 px-8 py-4 text-base font-semibold text-slate-950 shadow-[0_0_28px_rgba(245,158,11,0.35)] transition hover:bg-amber-400 hover:shadow-[0_0_36px_rgba(245,158,11,0.45)]"
+            >
+              Market &amp; Controls
+            </a>
+
+            <a
               href="/dashboard"
               className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
             >
