@@ -18,8 +18,15 @@ export default function HomePage() {
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
             <a
-              href="/dashboard"
+              href="/contact"
               className="inline-flex items-center justify-center rounded-full bg-blue-700 px-8 py-4 text-base font-semibold text-white shadow-[0_0_28px_rgba(29,78,216,0.4)] transition hover:bg-blue-800 hover:shadow-[0_0_36px_rgba(29,78,216,0.5)]"
+            >
+              Join Pilot
+            </a>
+
+            <a
+              href="/dashboard"
+              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
             >
               Open Dashboard
             </a>
