@@ -1,89 +1,52 @@
-export default function HomePage() {
+import Image from "next/image";
+
+export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-50 text-slate-900">
-      <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-5xl px-6 py-16">
-          <div className="mb-4 inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm font-medium text-slate-700">
-            Rheo • Introducing RheoPassport
-          </div>
+    <main className="min-h-screen bg-white text-slate-900">
+      <section className="relative h-[720px] w-full overflow-hidden">
+        <Image
+          src="/rheo-senior.png"
+          alt="A large group of seniors facing the camera"
+          fill
+          priority
+          className="object-cover"
+        />
 
-          <h1 className="max-w-4xl text-5xl font-semibold tracking-tight text-slate-950">
-            Small co-pays should not block basic care.
-          </h1>
+        <div className="absolute inset-0 bg-black/35" />
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-            RheoPassport helps households cover small healthcare co-pays so people do not skip prescriptions,
-            visits, or follow-up care over everyday costs.
-          </p>
+        <div className="absolute inset-0 flex items-center justify-center px-6">
+          <div className="max-w-4xl text-center text-white">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em]">
+              Rheo for Seniors
+            </p>
 
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
-            <a
-              href="/contact"
-              className="inline-flex items-center justify-center rounded-full bg-blue-700 px-8 py-4 text-base font-semibold text-white shadow-[0_0_28px_rgba(29,78,216,0.4)] transition hover:bg-blue-800 hover:shadow-[0_0_36px_rgba(29,78,216,0.5)]"
-            >
-              Join Pilot
-            </a>
+            <h1 className="mb-6 text-4xl font-bold leading-tight md:text-6xl">
+              More clarity for today.
+              <br />
+              More confidence for tomorrow.
+            </h1>
 
-            <a
-              href="/market"
-              className="inline-flex items-center justify-center rounded-full bg-amber-500 px-8 py-4 text-base font-semibold text-slate-950 shadow-[0_0_28px_rgba(245,158,11,0.35)] transition hover:bg-amber-400 hover:shadow-[0_0_36px_rgba(245,158,11,0.45)]"
-            >
-              Market &amp; Controls
-            </a>
+            <p className="mx-auto mb-8 max-w-2xl text-lg text-white/90 md:text-xl">
+              Rheo is designed to help seniors and families better understand
+              healthcare decisions while staying connected to the providers and
+              coverage they already use.
+            </p>
 
-            <a
-              href="/dashboard"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
-            >
-              Open Dashboard
-            </a>
+            <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <a
+                href="#learn"
+                className="rounded-xl bg-yellow-500 px-6 py-3 font-semibold text-slate-900 shadow-lg transition hover:bg-yellow-400"
+              >
+                See How Rheo Helps
+              </a>
 
-            <a
-              href="/about"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
-            >
-              About Rheo
-            </a>
-
-            <a
-              href="/partnerships"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
-            >
-              Partnerships
-            </a>
-
-            <a
-              href="/privacy"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
-            >
-              Privacy &amp; Trust
-            </a>
-
-            <a
-              href="#how-it-works"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-6 py-3 text-base font-medium text-slate-800 transition hover:bg-slate-50"
-            >
-              See How It Works
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section id="how-it-works" className="mx-auto max-w-5xl px-6 py-16">
-        <div className="grid gap-6 md:grid-cols-3">
-          <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
-            <h2 className="text-xl font-semibold text-slate-950">Base Support</h2>
-            <p className="mt-3 text-slate-600">$100 base support per primary household account.</p>
-          </div>
-
-          <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
-            <h2 className="text-xl font-semibold text-slate-950">Dependents</h2>
-            <p className="mt-3 text-slate-600">+$50 per dependent under 18, up to the household cap.</p>
-          </div>
-
-          <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
-            <h2 className="text-xl font-semibold text-slate-950">Household Cap</h2>
-            <p className="mt-3 text-slate-600">$300 maximum annual balance per household.</p>
+              <a
+                href="#family"
+                className="rounded-xl border border-white/70 bg-white/10 px-6 py-3 font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
+              >
+                For Seniors & Families
+              </a>
+            </div>
           </div>
         </div>
       </section>
