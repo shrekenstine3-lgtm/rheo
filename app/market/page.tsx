@@ -34,6 +34,25 @@ export default function MarketPage() {
             <p className="text-lg font-semibold text-slate-950">
               Rheo participation is a user’s decision.
             </p>
+            <div className="mt-8 rounded-3xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
+  <h2 className="text-2xl font-semibold text-slate-950">Frictionless enrollment</h2>
+  <p className="mt-4 text-base leading-7 text-slate-600">
+    Rheo is designed to be simple and free to enroll in at the user level. The model is intended to
+    minimize onboarding friction so households can participate without being tied to a specific
+    insurer, provider, or complex enrollment path.
+  </p>
+  <div className="mt-6 grid gap-4 md:grid-cols-3">
+    <div className="rounded-2xl bg-slate-50 p-4 text-sm text-slate-700">
+      Free user enrollment
+    </div>
+    <div className="rounded-2xl bg-slate-50 p-4 text-sm text-slate-700">
+      No carrier-bound entry requirement
+    </div>
+    <div className="rounded-2xl bg-slate-50 p-4 text-sm text-slate-700">
+      Designed to reduce onboarding friction
+    </div>
+  </div>
+</div>
             <p className="mt-3 text-base leading-7 text-slate-600">
               Households can participate regardless of policy issuer or healthcare provider. Rheo is designed to
               operate above existing coverage and care relationships as a separate support layer.
