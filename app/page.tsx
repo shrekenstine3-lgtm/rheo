@@ -17,7 +17,7 @@ export default function Home() {
         <div className="absolute inset-0 flex items-center justify-center px-6">
           <div className="max-w-4xl text-center text-white">
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em]">
-              Rheo for Seniors
+              RHEO FOR SENIORS
             </p>
 
             <h1 className="mb-6 text-4xl font-bold leading-tight md:text-6xl">
@@ -26,7 +26,7 @@ export default function Home() {
               More confidence for tomorrow.
             </h1>
 
-            <p className="mx-auto mb-8 max-w-2xl text-lg text-white/90 md:text-xl">
+            <p className="mx-auto mb-8 max-w-3xl text-lg text-white/90 md:text-xl">
               Rheo is designed to help seniors and families better understand
               healthcare decisions while staying connected to the providers and
               coverage they already use.
