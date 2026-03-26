@@ -1,6 +1,3 @@
-Paste this into `app/page.tsx` for the main Rheo home page:
-
-```tsx
 import Link from "next/link";
 
 export default function Home() {
@@ -254,6 +251,3 @@ export default function Home() {
     </main>
   );
 }
-```
-
-After that, keep the seniors code in `app/seniors/page.tsx`.
