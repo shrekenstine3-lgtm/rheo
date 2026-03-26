@@ -20,7 +20,7 @@ export default function MarketPage() {
 
       <section className="mx-auto max-w-6xl px-6 py-10">
         <div className="rounded-3xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
-          <h2 className="text-2xl font-semibold text-slate-950">Large covered user market</h2>
+          <h2 className="text-2xl font-semibold text-slate-950">Large potential user market</h2>
           <p className="mt-4 max-w-4xl text-lg leading-8 text-slate-600">
             Rheo is designed for a large, already-covered user market. It is not dependent on a single insurer,
             policy issuer, or provider network. The model is designed to operate above existing coverage and care
@@ -60,28 +60,28 @@ export default function MarketPage() {
                 <div>0–17</div>
                 <div>40.1M</div>
                 <div>30.1M</div>
-                <div>3.6M</div>
+                <div>X</div>
               </div>
 
               <div className="grid grid-cols-4 border-t border-slate-200 px-4 py-4 text-sm text-slate-700">
                 <div>18–64</div>
                 <div>138.6M</div>
                 <div>42.9M</div>
-                <div>23.3M</div>
+                <div>X</div>
               </div>
 
               <div className="grid grid-cols-4 border-t border-slate-200 px-4 py-4 text-sm text-slate-700">
                 <div>65+</div>
                 <div>25.9M</div>
                 <div>57.1M</div>
-                <div>0.4M</div>
+                <div>X</div>
               </div>
 
               <div className="grid grid-cols-4 border-t border-slate-200 bg-slate-50 px-4 py-4 text-sm font-medium text-slate-800">
                 <div>All ages</div>
                 <div>204.6M</div>
                 <div>130.2M</div>
-                <div>27.3M</div>
+                <div>X27.3M</div>
               </div>
             </div>
           </div>
