@@ -12,7 +12,7 @@ export default function Home() {
           className="object-cover"
         />
 
-        <div className="absolute inset-0 bg-black/35" />
+        <div className="absolute inset-0 bg-black/45" />
 
         <div className="absolute inset-0 flex items-center justify-center px-6">
           <div className="max-w-4xl text-center text-white">
@@ -48,6 +48,30 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="learn" className="bg-white px-6 py-20">
+        <div className="mx-auto max-w-5xl text-center">
+          <h2 className="mb-6 text-3xl font-bold md:text-5xl">
+            A calmer way to face healthcare decisions
+          </h2>
+          <p className="mx-auto max-w-3xl text-lg text-slate-600">
+            Rheo is designed to help seniors and families better understand
+            choices, reduce confusion, and feel more confident moving forward.
+          </p>
+        </div>
+      </section>
+
+      <section id="family" className="bg-slate-50 px-6 py-20">
+        <div className="mx-auto max-w-5xl text-center">
+          <h2 className="mb-6 text-3xl font-bold md:text-5xl">
+            Support for seniors and families
+          </h2>
+          <p className="mx-auto max-w-3xl text-lg text-slate-600">
+            Rheo is positioned as a user-side support layer that helps households
+            stay informed while keeping their current providers and coverage.
+          </p>
         </div>
       </section>
     </main>
