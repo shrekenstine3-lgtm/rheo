@@ -69,8 +69,9 @@ export default function Home() {
             Support for seniors and families
           </h2>
           <p className="mx-auto max-w-3xl text-lg text-slate-600">
-            Rheo is positioned as a user-side support layer that helps households
-            stay informed while keeping their current providers and coverage.
+            Rheo is positioned as a user-side support layer that helps
+            households stay informed while keeping their current providers and
+            coverage.
           </p>
         </div>
       </section>
