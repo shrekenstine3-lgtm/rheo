@@ -20,7 +20,7 @@ export default function MarketPage() {
 
       <section className="mx-auto max-w-6xl px-6 py-10">
         <div className="rounded-3xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
-          <h2 className="text-2xl font-semibold text-slate-950">Large potential user market</h2>
+          <h2 className="text-2xl font-semibold text-slate-950">Very large potential domestic market</h2>
           <p className="mt-4 max-w-4xl text-lg leading-8 text-slate-600">
             Rheo is designed for a large, already-covered user market. It is not dependent on a single insurer,
             policy issuer, or provider network. The model is designed to operate above existing coverage and care
