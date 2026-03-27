@@ -10,10 +10,10 @@ export default function RheoInsitePage() {
             </h1>
           </div>
           <a
-            href="/market"
+            href="/"
             className="rounded-2xl border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
           >
-            Back to Market &amp; Controls
+            To Rheo Home
           </a>
         </div>
       </section>
