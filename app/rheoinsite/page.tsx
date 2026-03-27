@@ -304,6 +304,15 @@ export default function RheoInsitePage() {
             policy contracts.
           </p>
         </div>
+
+        <div className="mt-8 flex justify-center">
+          <a
+            href="/continue"
+            className="inline-flex items-center justify-center rounded-full bg-black px-8 py-4 text-base font-semibold text-amber-400 shadow-[0_0_26px_rgba(0,0,0,0.3)] transition hover:bg-slate-900"
+          >
+            WHY FREE WORKS
+          </a>
+        </div>
       </section>
     </main>
   );
