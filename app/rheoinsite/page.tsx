@@ -11,7 +11,7 @@ export default function RheoInsitePage() {
           </div>
           <a
             href="/"
-            className="rounded-2xl border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
+            className="rounded-full bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_0_22px_rgba(5,150,105,0.35)] transition hover:bg-emerald-700 hover:shadow-[0_0_30px_rgba(5,150,105,0.45)]"
           >
             To Rheo Home
           </a>
